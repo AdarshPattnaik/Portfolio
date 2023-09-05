@@ -1,0 +1,476 @@
+/*! Responsive CSS */
+@media screen and (max-width:1255px) {
+    .home-text {
+        padding-left: 5vw;
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .home-img img {
+        width: 30vw;
+    }
+
+    .social-box {
+        width: 50%;
+    }
+
+    .comma {
+        width: 70px;
+    }
+
+    .about-para {
+        font-size: 17px;
+    }
+
+    .about-head h4 {
+        font-size: 25px;
+        height: 120px;
+        width: 250px;
+    }
+
+    .do-box img,
+    .exp-box img {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .nav-bar {
+        width: 100%;
+        height: auto;
+    }
+
+    .nav-icons {
+        padding: 2vh 5vw;
+        backdrop-filter: blur(5px);
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .nav-elem {
+        margin: 0;
+        font-size: 20px;
+        color: white;
+    }
+
+    .home-section .container {
+        margin: 0 10vw;
+    }
+
+    .home-text {
+        padding-left: 0;
+    }
+
+    .resume-btn {
+        min-width: 140px;
+        min-height: 50px;
+        font-size: 15px;
+    }
+
+    .resume-btn::before {
+        min-width: calc(140px + 11px);
+        min-height: calc(50px + 11px);
+    }
+
+    @keyframes ring {
+        0% {
+            width: 30px;
+            height: 30px;
+            opacity: 1;
+        }
+
+        100% {
+            width: 160px;
+            height: 160px;
+            opacity: 0;
+        }
+    }
+
+    .person-dp img {
+        width: 230px;
+        border: 5px solid var(--pt-main-color);
+    }
+
+    .person-data h2 {
+        font-size: 30px;
+    }
+
+    .person-data h4 {
+        font-size: 15px;
+    }
+
+    .person-data p {
+        font-size: 13px;
+    }
+
+    .login-box {
+        height: 370px;
+        width: 240px;
+        padding: 18px 25px;
+    }
+
+    .login-box h2 {
+        font-size: 22px;
+    }
+
+    .login-box .user-box input {
+        font-size: 15px;
+        height: 30px;
+        margin-bottom: 28px !important;
+    }
+
+    .login-box .user-box textarea {
+        margin-bottom: 12px !important;
+    }
+
+    .login-box .user-box label {
+        top: -10px !important;
+    }
+
+    .login-box .user-box input:focus~label,
+    .login-box .user-box input:valid~label,
+    .login-box .user-box textarea:focus~label,
+    .login-box .user-box textarea:valid~label {
+        top: -23px !important;
+    }
+    .login-box form button {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .home-img img {
+        top: 25vh;
+        right: 10vh;
+    }
+
+    .about-para {
+        font-size: 15px;
+    }
+
+    .about-main {
+        margin-top: 0;
+        height: 30vh;
+    }
+
+    .about-head h4 {
+        font-size: 20px;
+        height: 100px;
+        width: 130px;
+    }
+}
+
+@media screen and (max-width:767px) {
+    .carousel-item .container-fluid .row {
+        height: 65vh;
+    }
+
+    .rev-sec-1 {
+        height: fit-content;
+        padding: 2vh 0;
+    }
+
+    .person-dp img {
+        width: 30vh;
+    }
+
+    .rev-sec-2 {
+        padding-right: 0 !important;
+    }
+
+    .person-data h2,
+    .person-data h4,
+    .person-data p {
+        text-align: center;
+    }
+
+    .person-data h2 {
+        font-size: 25px;
+    }
+
+    .person-data h4 {
+        font-size: 13.5px;
+    }
+
+    .person-data p {
+        padding: 0 5vw;
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .greet-text {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .typewrite,
+    .text-name {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .home-img img {
+        top: 30vh;
+        right: 10vh;
+        width: 180px;
+    }
+
+    .resume-btn {
+        min-width: 100px;
+        min-height: 30px;
+        font-size: 13px;
+    }
+
+    .resume-btn::before {
+        min-width: calc(100px + 11px);
+        min-height: calc(30px + 11px);
+    }
+
+    @keyframes ring {
+        0% {
+            width: 30px;
+            height: 30px;
+            opacity: 1;
+        }
+
+        100% {
+            width: 130px;
+            height: 130px;
+            opacity: 0;
+        }
+    }
+}
+
+@media screen and (max-width:510px) {
+    .home-avatar {
+        display: none;
+    }
+
+    .home-text {
+        padding-right: 0;
+    }
+
+    .home-inner {
+        align-items: center !important;
+    }
+
+    .cv-desktop {
+        display: none;
+    }
+
+    .cv-mobile {
+        display: block;
+        filter: invert(200%) drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.5));
+    }
+
+    .resume-btn {
+        min-width: 60px;
+        min-height: 60px;
+        font-size: 13px;
+    }
+
+    .resume-btn::before {
+        min-width: calc(60px + 11px);
+        min-height: calc(60px + 11px);
+    }
+
+    @keyframes ring {
+        0% {
+            width: 30px;
+            height: 30px;
+            opacity: 1;
+        }
+
+        100% {
+            width: 150px;
+            height: 150px;
+            opacity: 0;
+        }
+    }
+
+    .comma {
+        width: 50px;
+        margin-top: 15vh;
+        z-index: 5;
+    }
+
+    .about-me {
+        position: relative;
+        z-index: 2;
+        margin-top: 12vh;
+    }
+
+    .about-para {
+        font-size: 15px;
+    }
+
+    .about-avatar {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin-top: 7vh;
+        width: 100%;
+    }
+
+    .about-avatar img {
+        width: auto;
+        height: 60vh;
+        filter: opacity(0.7);
+        -webkit-filter: opacity(0.7);
+    }
+
+    .about-main {
+        height: 15vh;
+    }
+
+    .about-head h4 {
+        height: 60px;
+        width: 80px;
+    }
+
+    .about-desktop {
+        display: none;
+    }
+
+    .about-mobile {
+        font-size: 20px;
+        display: block;
+    }
+}
+
+@media screen and (max-width:460px) {
+    .about-me {
+        margin-top: 8vh;
+    }
+    .login-box {
+        height: 74vh;
+    }
+    .login-box .user-box input {
+        margin-bottom: 5vh !important;
+    }
+
+    .login-box .user-box textarea {
+        margin-bottom: 2.5vh !important;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .header-section {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .header-name {
+        margin-top: 5px;
+    }
+
+    .social-box {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .about-section {
+        margin-top: 8vh;
+        height: 84vh;
+    }
+
+    .about-avatar {
+        margin-top: 14vh;
+    }
+
+    .about-avatar img {
+        height: 40vh;
+    }
+
+    .about-para {
+        font-size: 13px;
+        font-weight: bold;
+        opacity: 0.85;
+    }
+
+    .do-box img,
+    .exp-box img {
+        width: 100px;
+    }
+
+    .service-section {
+        height: 84vh;
+        margin-top: 8vh;
+    }
+
+    .thought-section {
+        height: 83vh;
+        margin-top: 8.5vh;
+    }
+
+    .person-dp img {
+        width: 23vh;
+        margin-bottom: 5px;
+    }
+
+    .person-data h2 {
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+
+    .person-data p {
+        margin-top: 1px !important;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        height: 30vh;
+    }
+
+    .project-section {
+        height: 83vh;
+        margin-top: 8vh;
+    }
+
+    .project-head {
+        font-size: 20px;
+    }
+
+    .project-img {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width:330px) {
+    .about-me {
+        margin-top: 0vh;
+    }
+
+    .person-data p {
+        padding: 0 1px 0 0 !important;
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .home-section .container {
+        margin: 0 1vw;
+    }
+
+    .greet-text {
+        font-size: 13px;
+    }
+
+    .typewrite,
+    .text-name {
+        font-size: 22px;
+    }
+
+    .wrap-btn {
+        margin-top: 17vh;
+    }
+}
+
+@media screen and (max-width:280px) {
+    .about-me {
+        margin-top: 0;
+    }
+}
