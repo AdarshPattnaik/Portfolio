@@ -11,7 +11,7 @@ const ReviewData = [
         dp: AvishekhJaiswal,
         name: "Avishekh Jaiswal",
         title: "Frontend Developer at UNIcompiler",
-        review: "I just wanted to share a quick note and that Adarsh creates an awesome smooth UI and I really appreciate his efforts. Good Luck to him for his future endeavours."
+        review: "I just want to share a quick note that Adarsh creates an awesome smooth UI and I really appreciate his efforts. Good Luck to him for his future endeavours."
     },
     {
         dp: DiptiPattanaik,
