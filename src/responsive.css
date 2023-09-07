@@ -29,7 +29,8 @@
     }
 
     .do-box img,
-    .exp-box img {
+    .exp-box img,
+    .cert-box img {
         width: 120px;
     }
 }
@@ -392,7 +393,8 @@
     }
 
     .do-box img,
-    .exp-box img {
+    .exp-box img,
+    .cert-box img {
         width: 100px;
     }
 

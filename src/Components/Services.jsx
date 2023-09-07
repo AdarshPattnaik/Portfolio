@@ -3,6 +3,7 @@ import React from 'react';
 import { motion } from "framer-motion";
 import WhatIDoImg from "../Media/what-i-do.png";
 import ExperienceImg from "../Media/experience.png";
+import CertificationsImg from "../Media/certifications.png";
 import ServiceToggle from '../SubComponents/ServiceToggle.jsx';
 
 export default function Services() {
@@ -40,6 +41,16 @@ export default function Services() {
               aria-controls="staticBackdrop" />
           </motion.div>
         </motion.div>
+        <motion.div className="cert-box">
+            <motion.img src={CertificationsImg} alt="certifications.png"
+              initial={{ opacity: 0, x: -50 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: 50 }}
+              transition={{ delay: 1.7, duration: 1.5, ease: 'easeInOut' }}
+              data-bs-toggle="offcanvas"
+              data-bs-target="#certificate-offcanvas"
+              aria-controls="staticBackdrop" />
+          </motion.div>
         <ServiceToggle />
       </motion.section>
     </>
