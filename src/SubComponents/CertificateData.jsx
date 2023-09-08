@@ -10,6 +10,13 @@ const certData = [
     },
     {
         img: HackerRank,
+        skill: "JavaScript (Intermediate)",
+        by: "HackerRank",
+        date: "Sept 2023",
+        credential: "https://drive.google.com/file/d/1eIqyrZrXszahLQEGBpARVto3spcq_7iK/view?usp=sharing"
+    },
+    {
+        img: HackerRank,
         skill: "JavaScript (Basic)",
         by: "HackerRank",
         date: "Sept 2023",
