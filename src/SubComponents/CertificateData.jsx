@@ -22,6 +22,13 @@ const certData = [
         date: "Sept 2023",
         credential: "https://drive.google.com/file/d/1bU1-I5Eu_Pgf-T5xtSw6-moQXONj68BC/view?usp=sharing"
     },
+    {
+        img: HackerRank,
+        skill: "CSS Skill Test",
+        by: "HackerRank",
+        date: "Sept 2023",
+        credential: "https://drive.google.com/file/d/1fJVlwgAZztty3CcRQd6UOWSG2JxsQfd-/view?usp=sharing"
+    },
 ];
 
 export default certData;
