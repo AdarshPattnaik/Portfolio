@@ -36,6 +36,11 @@ const SkillData = [
     },
     {
         car: "c2",
+        name: "Tailwind CSS",
+        percent: "85%",
+    },
+    {
+        car: "c2",
         name: "React.js",
         percent: "80%",
         icon: <FaReact />,
